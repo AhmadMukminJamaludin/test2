@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div class="hero min-h-screen bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">
+      <div class="hero-content text-center">
+        <div class="max-w-md">
+        <p class="animate-bounce text-xl">
+          ❤
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <h1 class="text-5xl font-bold text-white uppercase tracking-widest font-mono">Melinda</h1>
+          <p class="py-6 text-white font-serif leading-loose">"Be with someone who is proud to have you. Of course it's <b className="uppercase">me</b>! wkwk ☺"</p>
+          <span className="text-white text-xs">Created by Ahmad Mukmin Jamaludin</span>
+        </div>
+      </div>
+    </div> 
   );
 }
 
